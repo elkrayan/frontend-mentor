@@ -1,0 +1,27 @@
+{
+  "name": "3-columns-cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkrayan/frontend-mentor.git"
+  },
+  "author": "Rayan El-Koukouchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkrayan/frontend-mentor/issues"
+  },
+  "homepage": "https://github.com/elkrayan/frontend-mentor#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "cssnano": "^5.0.5",
+    "parcel": "^2.0.0-beta.3.1",
+    "postcss": "^8.3.0",
+    "sass": "^1.34.1"
+  }
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.container {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+}
+
+article {
+  background-color: red;
+  width: 100%;
+  padding: 22px;
+  border-radius: 28px;
+}

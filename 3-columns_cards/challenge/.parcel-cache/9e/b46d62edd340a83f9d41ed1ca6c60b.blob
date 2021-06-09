@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lexend Deca";
+}
+.container {
+  width: 100%;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+article {
+  background-color: red;
+  width: 100%;
+  padding: 32px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+article.orange {
+  background-color: #e38826;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+}
+article.orange a.btn {
+  color: #e38826;
+}
+article.cyan {
+  background-color: #006970;
+  border-radius: 0;
+}
+article.cyan a.btn {
+  color: #006970;
+}
+article.darkCyan {
+  background-color: #004241;
+  border-start-end-radius: 0;
+  border-start-start-radius: 0;
+}
+article.darkCyan a.btn {
+  color: #004241;
+}
+article main h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 2.2em;
+  margin: 28px auto;
+  color: white;
+}
+article main p {
+  margin: 20px 0;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.75);
+}
+article main a.btn {
+  margin-top: 22px;
+  background-color: white;
+  padding: 15px 26px;
+  border-radius: 22px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+  }
+
+  article.orange {
+    border-start-end-radius: 0;
+    border-end-start-radius: 18px;
+  }
+  article.darkCyan {
+    border-end-start-radius: 0;
+    border-end-start-radius: 18px;
+  }
+}
+/*# sourceMappingURL=index.HASH_REF_4c6537582e7972800f4d426a254a1568.css.map */
